@@ -24,6 +24,19 @@
     padding: 20px;
 }
 
+img.dishes-img {
+    /* height: 200px;
+    width: 200px;
+    border-radius: 180px;
+    padding: 20px;
+    text-align: center; */
+    width: 200px;
+    border-radius: 100px;
+    margin: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
 .contact-lbl {
     color: #822529;
     font-weight: bold;
@@ -37,5 +50,86 @@
     background-color: #ad998c;
     border-color: #ad998c;
     margin: 20px 0;
+}
+.contact-btn:hover {
+    background-color: #6e4848!important;
+    border-color: #6e4848!important;
+}
+.sub-title{
+    margin: 30px 0; 
+    text-align: center;
+}
+
+.text-muted {
+    color:#c4bbb4 !important;
+}
+
+#map {
+    display: block;
+    height: 100%;
+    margin: 0 5%;
+  }
+  
+  #mapDiv {
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+a, h3 {
+    color: #ad998c !important;
+}  
+::selection {
+    color: #ad998c !important;
+    background: #0085a14a !important;
+}
+.dish-title {
+    font-size: .9em;
+    font-weight: 800;
+    color: #862a29;
+    margin-top: 0 !important;
+    text-align: center;
+}
+.aboutus{
+    color: #822529;
+     /* margin: 50px 0;  */
+    font-family: ltc-bodoni-175;
+    font-size: 28px;
+    font-weight: 1000;
+    font-style: italic;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    text-align: center;
+}
+p a {
+    text-decoration: blink;
+}
+.contact-info{
+    font-size: .9em;
+    font-weight: 800;
+    color: #862a29;
+    margin: 0 !important;
+    padding-left:40px; 
+}
+i{
+    margin-right: 7px;
+    color: #ad998c;
+}
+.submit {
+    font-size: 14px;
+    font-weight: 800;
+    padding: 10px 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    border-radius: 30px;
+}
+a.submit{
+    color: white !important;
+}
+.view-more{
+    font-weight: bold;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
 }
 /* ...... */
